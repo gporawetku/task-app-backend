@@ -30,7 +30,6 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
   controllers: [AppController],
   providers: [AppService],
 })
-
 export class AppModule {
   constructor(private dataSource: DataSource) {}
 }
